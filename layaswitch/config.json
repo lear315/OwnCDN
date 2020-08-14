@@ -1,0 +1,15 @@
+{
+    "curEvn": {
+        "platform": "Web"
+    },
+
+    "platforms": {
+        "Web": {
+            "cdn": ""
+        },
+
+        "Wechat": {
+            "cdn": "https://layaswitch-1255444941.cos.ap-chengdu.myqcloud.com/"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+	"front":"../texture/sky_front.jpg",
+	"back":"../texture/sky_back.jpg",
+	"left":"../texture/sky_left.jpg",
+	"right":"../texture/sky_right.jpg",
+	"up":"../texture/sky_up.jpg",
+	"down":"../texture/sky_down.jpg"
+}

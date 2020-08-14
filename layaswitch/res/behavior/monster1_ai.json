@@ -1,0 +1,412 @@
+{
+  "version": "0.3.0",
+  "scope": "tree",
+  "id": "da6af2b8-33da-4896-854e-f194a6718b4d",
+  "title": "A behavior tree",
+  "description": "",
+  "root": "743a6ccc-bbfa-4599-8e68-937a986e83be",
+  "properties": {},
+  "nodes": {
+    "743a6ccc-bbfa-4599-8e68-937a986e83be": {
+      "id": "743a6ccc-bbfa-4599-8e68-937a986e83be",
+      "name": "Priority",
+      "title": "Priority",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 24,
+        "y": -12
+      },
+      "children": [
+        "381458d5-c6c0-4835-93b7-82db80fc8929",
+        "8001b9a0-dadc-4809-8c8b-1c6e8d2a24ff",
+        "c755ba08-5746-4161-a6c3-85845b3beb8a",
+        "4e06555d-b27e-4915-947b-a4cf998ad02b",
+        "5d20e9e8-96cd-4f9c-8895-c8d54d74bc13"
+      ]
+    },
+    "4e06555d-b27e-4915-947b-a4cf998ad02b": {
+      "id": "4e06555d-b27e-4915-947b-a4cf998ad02b",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "攻击节点",
+      "properties": {},
+      "display": {
+        "x": 228,
+        "y": 216
+      },
+      "children": [
+        "bca7bc5e-e1db-467e-85c2-1c1e10b8e2d8",
+        "0124ff85-0f1e-4b3a-81fd-9c17a21c5001"
+      ]
+    },
+    "bca7bc5e-e1db-467e-85c2-1c1e10b8e2d8": {
+      "id": "bca7bc5e-e1db-467e-85c2-1c1e10b8e2d8",
+      "name": "onRange",
+      "title": "onRange",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 444,
+        "y": 108
+      }
+    },
+    "0124ff85-0f1e-4b3a-81fd-9c17a21c5001": {
+      "id": "0124ff85-0f1e-4b3a-81fd-9c17a21c5001",
+      "name": "MemSequence",
+      "title": "MemSequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 444,
+        "y": 324
+      },
+      "children": [
+        "20714c36-7b7e-4db4-bb76-89df2f3beef0",
+        "a6b8a2e3-2048-4095-8428-da13f16edbf0",
+        "98dbfec2-1403-40eb-86ef-0772aa2f9a85",
+        "fdc4c772-e85a-4f8a-8135-74292d74743a"
+      ]
+    },
+    "a6b8a2e3-2048-4095-8428-da13f16edbf0": {
+      "id": "a6b8a2e3-2048-4095-8428-da13f16edbf0",
+      "name": "attack",
+      "title": "attack",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 648,
+        "y": 288
+      }
+    },
+    "fdc4c772-e85a-4f8a-8135-74292d74743a": {
+      "id": "fdc4c772-e85a-4f8a-8135-74292d74743a",
+      "name": "idle",
+      "title": "idle",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 648,
+        "y": 456
+      }
+    },
+    "5d20e9e8-96cd-4f9c-8895-c8d54d74bc13": {
+      "id": "5d20e9e8-96cd-4f9c-8895-c8d54d74bc13",
+      "name": "MemSequence",
+      "title": "MemSequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 228,
+        "y": 588
+      },
+      "children": [
+        "6abeede1-d41f-46f2-8f75-5444907122c7",
+        "154125c8-3cc8-4ada-aede-2410aafd102e"
+      ]
+    },
+    "6abeede1-d41f-46f2-8f75-5444907122c7": {
+      "id": "6abeede1-d41f-46f2-8f75-5444907122c7",
+      "name": "patrol",
+      "title": "patrol",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 444,
+        "y": 552
+      }
+    },
+    "154125c8-3cc8-4ada-aede-2410aafd102e": {
+      "id": "154125c8-3cc8-4ada-aede-2410aafd102e",
+      "name": "Wait",
+      "title": "Wait <milliseconds>ms",
+      "description": "",
+      "properties": {
+        "milliseconds": 300
+      },
+      "display": {
+        "x": 444,
+        "y": 636
+      }
+    },
+    "efb99274-adca-4292-888e-f97bc8811e87": {
+      "id": "efb99274-adca-4292-888e-f97bc8811e87",
+      "name": "dodge",
+      "title": "dodge",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 444,
+        "y": -336
+      }
+    },
+    "b19ef0aa-cc19-4719-8a84-006c92d6047e": {
+      "id": "b19ef0aa-cc19-4719-8a84-006c92d6047e",
+      "name": "watchBullet",
+      "title": "watchBullet",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 444,
+        "y": -420
+      }
+    },
+    "50cdca62-ceab-49c6-8da3-f6963706ac5b": {
+      "id": "50cdca62-ceab-49c6-8da3-f6963706ac5b",
+      "name": "Wait",
+      "title": "Wait <milliseconds>ms",
+      "description": "",
+      "properties": {
+        "milliseconds": 300
+      },
+      "display": {
+        "x": 444,
+        "y": -240
+      }
+    },
+    "8001b9a0-dadc-4809-8c8b-1c6e8d2a24ff": {
+      "id": "8001b9a0-dadc-4809-8c8b-1c6e8d2a24ff",
+      "name": "MemSequence",
+      "title": "MemSequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 228,
+        "y": -336
+      },
+      "children": [
+        "b19ef0aa-cc19-4719-8a84-006c92d6047e",
+        "efb99274-adca-4292-888e-f97bc8811e87",
+        "50cdca62-ceab-49c6-8da3-f6963706ac5b"
+      ]
+    },
+    "c755ba08-5746-4161-a6c3-85845b3beb8a": {
+      "id": "c755ba08-5746-4161-a6c3-85845b3beb8a",
+      "name": "MemSequence",
+      "title": "MemSequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 228,
+        "y": -72
+      },
+      "children": [
+        "ea9da694-4596-4f95-8686-53d73c1f360c",
+        "cc3adf42-3b44-4232-8057-cdd46b233ba2",
+        "d5965246-3162-4a5e-9ae6-ff4a294c38f7"
+      ]
+    },
+    "ea9da694-4596-4f95-8686-53d73c1f360c": {
+      "id": "ea9da694-4596-4f95-8686-53d73c1f360c",
+      "name": "lowLife",
+      "title": "lowLife",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 444,
+        "y": -156
+      }
+    },
+    "cc3adf42-3b44-4232-8057-cdd46b233ba2": {
+      "id": "cc3adf42-3b44-4232-8057-cdd46b233ba2",
+      "name": "flee",
+      "title": "flee",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 444,
+        "y": -72
+      }
+    },
+    "d5965246-3162-4a5e-9ae6-ff4a294c38f7": {
+      "id": "d5965246-3162-4a5e-9ae6-ff4a294c38f7",
+      "name": "Wait",
+      "title": "Wait <milliseconds>ms",
+      "description": "",
+      "properties": {
+        "milliseconds": 300
+      },
+      "display": {
+        "x": 444,
+        "y": 24
+      }
+    },
+    "20714c36-7b7e-4db4-bb76-89df2f3beef0": {
+      "id": "20714c36-7b7e-4db4-bb76-89df2f3beef0",
+      "name": "attackDesire",
+      "title": "attackDesire",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 648,
+        "y": 192
+      }
+    },
+    "98dbfec2-1403-40eb-86ef-0772aa2f9a85": {
+      "id": "98dbfec2-1403-40eb-86ef-0772aa2f9a85",
+      "name": "Wait",
+      "title": "Wait <milliseconds>ms",
+      "description": "",
+      "properties": {
+        "milliseconds": 300
+      },
+      "display": {
+        "x": 648,
+        "y": 372
+      }
+    },
+    "381458d5-c6c0-4835-93b7-82db80fc8929": {
+      "id": "381458d5-c6c0-4835-93b7-82db80fc8929",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 228,
+        "y": -516
+      },
+      "children": [
+        "34386192-cd6f-40ef-944d-02ef7ebf64c2",
+        "7bd42f3d-8757-4546-96ea-b1843486c633"
+      ]
+    },
+    "34386192-cd6f-40ef-944d-02ef7ebf64c2": {
+      "id": "34386192-cd6f-40ef-944d-02ef7ebf64c2",
+      "name": "wallCollision",
+      "title": "wallCollision",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 408,
+        "y": -600
+      }
+    },
+    "7bd42f3d-8757-4546-96ea-b1843486c633": {
+      "id": "7bd42f3d-8757-4546-96ea-b1843486c633",
+      "name": "turnDir",
+      "title": "turnDir",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 408,
+        "y": -540
+      }
+    }
+  },
+  "display": {
+    "camera_x": 521,
+    "camera_y": 836.5,
+    "camera_z": 1,
+    "x": -180,
+    "y": -12
+  },
+  "custom_nodes": [
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "attack",
+      "category": "action",
+      "title": "attack",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "onRange",
+      "category": "condition",
+      "title": "onRange",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "idle",
+      "category": "action",
+      "title": "idle",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "patrol",
+      "category": "action",
+      "title": "patrol",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "idling",
+      "category": "action",
+      "title": "idling",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "dodge",
+      "category": "action",
+      "title": "dodge",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "watchBullet",
+      "category": "condition",
+      "title": "watchBullet",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "lowLife",
+      "category": "condition",
+      "title": "lowLife",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "flee",
+      "category": "action",
+      "title": "flee",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "attackDesire",
+      "category": "condition",
+      "title": "attackDesire",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "wallCollision",
+      "category": "condition",
+      "title": "wallCollision",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "turnDir",
+      "category": "action",
+      "title": "turnDir",
+      "description": null,
+      "properties": {}
+    }
+  ]
+}
