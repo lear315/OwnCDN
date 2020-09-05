@@ -4,10 +4,10 @@
   "static/css/2.b751d588.chunk.css": "/static/css/2.b751d588.chunk.css",
   "static/js/2.50eb546e.chunk.js": "/static/js/2.50eb546e.chunk.js",
   "static/css/3.8e8c2c4d.chunk.css": "/static/css/3.8e8c2c4d.chunk.css",
-  "static/js/3.3671981b.chunk.js": "/static/js/3.3671981b.chunk.js",
+  "static/js/3.0679ce1f.chunk.js": "/static/js/3.0679ce1f.chunk.js",
   "main.css": "/static/css/main.c770cb7b.chunk.css",
-  "main.js": "/static/js/main.a0919d61.chunk.js",
-  "runtime~main.js": "/static/js/runtime~main.07c10a59.js",
+  "main.js": "/static/js/main.57930895.chunk.js",
+  "runtime~main.js": "/static/js/runtime~main.cee3de3d.js",
   "static/css/6.f0e03a2f.chunk.css": "/static/css/6.f0e03a2f.chunk.css",
   "static/js/6.33e2c103.chunk.js": "/static/js/6.33e2c103.chunk.js",
   "static/css/7.9e5003da.chunk.css": "/static/css/7.9e5003da.chunk.css",
@@ -20,9 +20,9 @@
   "static/js/10.3205b0a0.chunk.js": "/static/js/10.3205b0a0.chunk.js",
   "static/css/11.247f739b.chunk.css": "/static/css/11.247f739b.chunk.css",
   "static/js/11.6fc9354a.chunk.js": "/static/js/11.6fc9354a.chunk.js",
-  "static/media/mybilibili.jpg": "/./static/media/mybilibili.ef986176.jpg",
-  "static/media/mywechat.jpg": "/./static/media/mywechat.575e3126.jpg",
   "index.html": "/index.html",
-  "precache-manifest.92ae56811cc711e8753bd18ba197ead2.js": "/precache-manifest.92ae56811cc711e8753bd18ba197ead2.js",
-  "service-worker.js": "/service-worker.js"
+  "precache-manifest.c53d1de01084ac18577ebd79bab3be73.js": "/precache-manifest.c53d1de01084ac18577ebd79bab3be73.js",
+  "service-worker.js": "/service-worker.js",
+  "static/media/mybilibili.jpg": "/static/media/mybilibili.ef986176.jpg",
+  "static/media/mywechat.jpg": "/static/media/mywechat.575e3126.jpg"
 }

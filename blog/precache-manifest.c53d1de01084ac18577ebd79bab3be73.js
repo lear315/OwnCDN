@@ -16,24 +16,24 @@ self.__precacheManifest = [
     "url": "/static/js/2.50eb546e.chunk.js"
   },
   {
-    "revision": "25b42b9cc771b1c1ae51",
+    "revision": "ddeb1f988bf838322dd2",
     "url": "/static/css/3.8e8c2c4d.chunk.css"
   },
   {
-    "revision": "25b42b9cc771b1c1ae51",
-    "url": "/static/js/3.3671981b.chunk.js"
+    "revision": "ddeb1f988bf838322dd2",
+    "url": "/static/js/3.0679ce1f.chunk.js"
   },
   {
-    "revision": "6a9e634f9249806e910b",
+    "revision": "4dc7b0640b6ba289c4df",
     "url": "/static/css/main.c770cb7b.chunk.css"
   },
   {
-    "revision": "6a9e634f9249806e910b",
-    "url": "/static/js/main.a0919d61.chunk.js"
+    "revision": "4dc7b0640b6ba289c4df",
+    "url": "/static/js/main.57930895.chunk.js"
   },
   {
-    "revision": "13751d764c4a72137806",
-    "url": "/static/js/runtime~main.07c10a59.js"
+    "revision": "b68756de17edbe36d708",
+    "url": "/static/js/runtime~main.cee3de3d.js"
   },
   {
     "revision": "f4d57273937040ee28c2",
@@ -85,14 +85,14 @@ self.__precacheManifest = [
   },
   {
     "revision": "575e31266d37ceaca6adcf43691c9df4",
-    "url": "/./static/media/mywechat.575e3126.jpg"
+    "url": "/static/media/mywechat.575e3126.jpg"
   },
   {
     "revision": "ef986176adf8d87b26ba5860b7cb2d1d",
-    "url": "/./static/media/mybilibili.ef986176.jpg"
+    "url": "/static/media/mybilibili.ef986176.jpg"
   },
   {
-    "revision": "0754b2201bff1f96fc45b3849b144504",
+    "revision": "ff85633a5b359d72fc20d36af9ff201c",
     "url": "/index.html"
   }
 ];
