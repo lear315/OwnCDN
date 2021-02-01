@@ -1,0 +1,1 @@
+{"type":"Sprite","props":{"y":0,"x":0,"texture":"ui/ggj/f6.png","presetID":1,"isPresetRoot":true},"compId":120,"child":[{"type":"Script","props":{"width":66,"height":146,"presetID":2,"runtime":"laya.physics.BoxCollider"},"compId":121},{"type":"Script","props":{"presetID":3,"runtime":"laya.physics.RigidBody"},"compId":122}],"loadList":["ui/ggj/f6.png"],"loadList3D":[]}

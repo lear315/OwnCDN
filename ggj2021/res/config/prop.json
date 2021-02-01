@@ -1,0 +1,154 @@
+{
+    "1": {
+        "index": 1,
+        "name": "Apple",
+        "res": "common/ggjfurit/f1.json",
+        "res3d": "res/3d/Apple.lh",
+        "health": 1,
+        "isFurit": 1
+    },
+    "2": {
+        "index": 2,
+        "name": "Avocado",
+        "res": "common/ggjfurit/f2.json",
+        "res3d": "res/3d/Avocado.lh",
+        "health": 1,
+        "isFurit": 1
+    },
+    "3": {
+        "index": 3,
+        "name": "Banana",
+        "res": "",
+        "res3d": "res/3d/Banana.lh",
+        "health": 1,
+        "isFurit": 2
+    },
+    "4": {
+        "index": 4,
+        "name": "Barrel",
+        "res": "",
+        "res3d": "res/3d/Barrel.lh",
+        "health": 1,
+        "isFurit": 2
+    },
+    "5": {
+        "index": 5,
+        "name": "Bird",
+        "res": "",
+        "res3d": "res/3d/Bird.lh",
+        "health": 1,
+        "isFurit": 2
+    },
+    "6": {
+        "index": 6,
+        "name": "Cauldron",
+        "res": "",
+        "res3d": "res/3d/Cauldron.lh",
+        "health": 1,
+        "isFurit": 2
+    },
+    "7": {
+        "index": 7,
+        "name": "Cherries",
+        "res": "common/ggjfurit/f9.json",
+        "res3d": "res/3d/Cherries.lh",
+        "health": 1,
+        "isFurit": 1
+    },
+    "8": {
+        "index": 8,
+        "name": "Cover",
+        "res": "",
+        "res3d": "res/3d/Cover.lh",
+        "health": 1,
+        "isFurit": 2
+    },
+    "9": {
+        "index": 9,
+        "name": "Flag",
+        "res": "",
+        "res3d": "res/3d/Flag.lh",
+        "health": 1,
+        "isFurit": 2
+    },
+    "10": {
+        "index": 10,
+        "name": "Land",
+        "res": "",
+        "res3d": "res/3d/Land.lh",
+        "health": 1,
+        "isFurit": 2
+    },
+    "11": {
+        "index": 11,
+        "name": "Lemon",
+        "res": "common/ggjfurit/f3.json",
+        "res3d": "res/3d/Lemon.lh",
+        "health": 1,
+        "isFurit": 1
+    },
+    "12": {
+        "index": 12,
+        "name": "Peach",
+        "res": "common/ggjfurit/f8.json",
+        "res3d": "res/3d/Peach.lh",
+        "health": 1,
+        "isFurit": 1
+    },
+    "13": {
+        "index": 13,
+        "name": "Peanut",
+        "res": "common/ggjfurit/f4.json",
+        "res3d": "res/3d/Peanut.lh",
+        "health": 1,
+        "isFurit": 1
+    },
+    "14": {
+        "index": 14,
+        "name": "Pear",
+        "res": "common/ggjfurit/f5.json",
+        "res3d": "res/3d/Pear.lh",
+        "health": 1,
+        "isFurit": 1
+    },
+    "15": {
+        "index": 15,
+        "name": "Skull",
+        "res": "",
+        "res3d": "res/3d/Skull.lh",
+        "health": 1,
+        "isFurit": 2
+    },
+    "16": {
+        "index": 16,
+        "name": "Strawberry",
+        "res": "common/ggjfurit/f6.json",
+        "res3d": "res/3d/Strawberry.lh",
+        "health": 1,
+        "isFurit": 1
+    },
+    "17": {
+        "index": 17,
+        "name": "TreeRoot",
+        "res": "",
+        "res3d": "res/3d/TreeRoot.lh",
+        "health": 1,
+        "isFurit": 2
+    },
+    "18": {
+        "index": 18,
+        "name": "Watermelon",
+        "res": "common/ggjfurit/f7.json",
+        "res3d": "res/3d/Watermelon.lh",
+        "health": 1,
+        "isFurit": 1
+    },
+    "19": {
+        "index": 19,
+        "name": "Wood",
+        "res": "",
+        "res3d": "res/3d/Wood.lh",
+        "health": 1,
+        "isFurit": 2
+    }
+}
